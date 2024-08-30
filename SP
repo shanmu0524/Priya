@@ -1,0 +1,35 @@
+}
+
+.product-card {
+    background-color: var(--secondary-color);
+    border: 1px solid #e1e1e1;
+    padding: var(--spacing-md);
+    width: calc(33.333% - var(--spacing-md)); /* Three cards per row */
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+
+
+
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-weight: bold;
+    margin: var(--spacing-sm) 0;
+}
+
+.product-price {
+    color: #ff4b4b;
+    font-weight: bold;
+    margin-bottom: var(--spacing-sm);
+}
+
+.product-reviews {
+    color: #999;
+    font-size: 0.9rem;
+}
